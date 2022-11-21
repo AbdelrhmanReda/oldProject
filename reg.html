@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reg.css">
+        <link rel="stylesheet" href="normalize.css"> 
+        <link href='https://fonts.googleapis.com/css?family=Playfair Display SC' rel='stylesheet'>
+        <title>REGESTERATION FORM</title>
+
+
+    </head>
+    <body>
+      
+   <div class="all">     
+    <div class="container">
+        <div class="error"></div>
+        <div class="header">
+            <h2>Make A Reservation</h2>
+        </div> 
+        <form id="form" class="bForm" action="pro.html" name="test">
+            <div class="inForm">
+                <label>User Name</label>
+                <input type="text" placeholder="First Name" id="fName" class="get"  required="required" />
+            </div> 
+            <div class="inForm">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name" id="lName" class="get"  required="required" />
+            </div> 
+            <div class="inForm">
+                <label>E-mail</label>
+                <input type="email" placeholder="abdelrahman@gmail.com" id="Email" class="get"  required="required" />
+            </div> 
+            <div class="inForm">
+                <label>Phone Number</label>
+                <input type="number" placeholder="Phone Number" id="num" class="get" maxlength="11"   required="required" // >
+            </div> 
+            <div class="inForm">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password" id="pass" class="get" name="getPass">
+            </div> 
+             <div class="inForm">
+                <label>Re-Password</label>
+                <input type="password" placeholder="Re-Password" id="pass1" class="get" name="rePass">
+            </div> 
+            <div class="inForm">
+                <label>Adress</label>
+                <textarea placeholder="Enter Your Adress, please " id="lName" class="textArea"> </textarea>
+            </div> 
+            <div class="select">
+                <label>
+                    <input type="radio" value="Male" name="gender"  required="required" />
+                   <span>Male</span>
+                </label>
+                <label>
+                    <input type="radio" value="Female" name="gender"  required="required" />
+                    <span>Female </span>
+                </label> 
+            </div>
+            <div class="inForm">
+                <input type="submit" value= "Make Your Reservation" class="btn" onclick="return check ();">
+            </div>
+        </form>
+    </div>
+</div>
+<script src="reg.js"></script>
+</body>
+</html>

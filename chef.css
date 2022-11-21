@@ -1,0 +1,328 @@
+
+body
+{
+    background: url("back.jpg");
+    background-size: contain;
+    height: 100%px;
+}
+
+.container 
+{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+
+
+
+
+/*header*/
+.header
+{
+    z-index: 2 ;
+    color: white;
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
+.header .logo 
+{
+    width: 200px;
+    font-weight: bold;
+    padding: 15px;
+    padding-right: 10px;
+
+}
+.header .features 
+{
+   list-style: none;
+   text-align: center;
+   padding-left: 0 ;
+   padding-right: 20px;
+   width: 100%;
+   text-decoration: none;
+}
+.header .features li
+{
+    display: inline-block;
+    margin-right: 40px;  
+    padding-right: 0px;  
+    text-decoration: none;
+}
+.header .features ,li a 
+{
+    text-decoration: none;
+    color: white;
+    transition: color 1.5s;
+}
+.header ,features ,li,a:hover
+{
+  color: #ffeb3b;
+  font-weight: bold;
+}
+.button1
+{
+
+    background-color: #e1d724;
+    width: 200px;
+    color: whitesmoke;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:none;
+    padding: 10px 30px;
+    border:1px none;
+    margin-top: 25px;
+    transition: all 1s ;
+    font-family: 'Playfair Display SC';
+
+}
+.button1 a 
+{
+    text-decoration: none;
+}
+
+.button1:hover
+{
+    width: 260px ;
+    background-color:rgb(26, 17, 12);
+    
+}
+/*END header*/
+
+
+
+
+/*Start chefs details*/
+.chef
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.chef h1
+{
+    text-align: center;
+    padding-bottom: 20px ;
+    font-family: 'Calligraffitti';    font-size: 45px;
+    color: #e1d724;
+
+}
+
+.chef .chefImg
+{
+    text-align: center;
+    display: inline;
+    width: 200px;
+    float: left;
+    border-radius: 10px;
+    padding-bottom: 80px;
+}
+.chef .chefImg img
+{
+    height: 293.77px;
+    width:100% ;
+
+}
+.chef .chefImg h4
+{
+    font-size: 25px;
+    color:#FFC107 ;
+    font-family: 'Courgette';
+}
+.chef .chefImg p
+{
+    font-size: 20px;
+    color: #e1d724;
+    font-family: 'Dancing Script';
+    padding-right: 5px;
+
+
+
+}
+
+.lecter
+{
+    width: 1000px;
+    padding-left: 125px;
+    height: 400px;
+    display: inline-block;
+}
+
+
+.lecter .dr
+{
+    width: 100%;
+    height: 100%;
+}
+ h2
+{
+    font-size: 25px;
+    color:#FFC107 ;
+    font-family: 'Courgette';
+    text-align: center;
+    padding-bottom: 20px;
+}
+/*End chefs details*/
+
+
+
+
+
+.footer 
+{
+    padding-top:70px;
+    padding-bottom: 10px;
+    background-size: cover;
+    height: 400px;
+}
+
+.footer .sec  
+{
+    background-color: #f6a15400;
+    width: 390px;
+    display: inline-block;
+    height: 250px;
+}
+.footer .sec h5
+{
+    color: #d0d0d0 ; 
+    font-size: 21px;
+    text-align: left;
+    font-family: 'Adamina'
+
+}
+.footer .sec p
+{
+    color: #d0d0d0bd;
+    font-family: 'Amiko';
+    padding-bottom: 20px;
+}
+.footer .sec p span
+{
+      color: #e1d724;
+      font-size:  15px;
+}
+ .x 
+ {
+     text-align: center;
+     color: #d0d0d0;
+ }
+ 
+ #Img {
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.75s;
+  }
+  
+  #Img:hover
+{
+    opacity: .8;
+    transform: scale(1.35);
+}
+@media screen and (max-width:991.98px)
+{
+    .chef 
+    {
+        display: block;
+        height: 100%;
+    }
+    .chef .chefImg 
+    {
+        display:block;
+        width:30%; 
+        text-align:center;
+        padding-left:30%;
+        height: 100%;
+    }
+    .footer .sec  
+    {
+        display: block;
+        width: 50%;
+        height: 80%;
+        padding-left:40%
+    }
+    .header
+    {
+        display:block;
+
+    }
+    .header .logo 
+    {
+        display:block ; padding-left: 43%; font-size: 25px;
+    }
+    .header .features li {display: block; padding-bottom: 25px; font-size: 25px; }
+    .button1 a {display: block;}
+ 
+
+
+ 
+}
+@media screen and (max-width: 575.98px)
+{
+    .chef .chefImg 
+    {
+        display:block;
+        width:30%; 
+        text-align:center;
+        padding-left:30%;
+        height:100%;
+    }
+    .footer .sec  
+    {
+        display: block;
+        width: 50%;
+        height: 80%;
+        padding-left:40%
+    } 
+    .header
+    {
+        display:block;
+
+    }
+    .header .logo 
+    {
+        display:block ; padding-left: 43%; font-size: 25px;
+    }
+    .header .features li {display: block; padding-bottom: 25px; font-size: 25px; }
+    .button1 a {display: block;}
+
+}
+@media screen and (max-width:400px)
+{
+    .chef .chefImg 
+    {
+        width:30%; 
+        text-align:center;
+        height:100%;
+        display: inline;
+    }
+    .footer .sec  
+    {
+        display: block;
+        width: 50%;
+        height: 80%;
+        padding-left:40%
+    } 
+    .header
+    {
+        display:block;
+
+    }
+    .header .logo 
+    {
+        display:block ; padding-left: 43%; font-size: 30px; text-align: center;
+    }
+    .header .features li {display: block; padding-bottom: 25px; font-size: 29px; }
+    .button1 a {display: block;}
+   
+}
+
+
+
+
+
+

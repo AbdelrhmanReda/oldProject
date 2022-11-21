@@ -1,0 +1,388 @@
+
+body 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container 
+{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+
+}
+/*    <!-- Start first page and navigation bar --> */
+.fpage
+{
+    background-image: url("steak-food-769289.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+.fpage .overlay
+{
+    background-color: #1d0f08a6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1 ;
+    top: 0;
+    left: 0 ;
+}
+.header
+{
+    z-index: 2 ;
+    color: white;
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
+.header .logo 
+{
+    width: 200px;
+    font-weight: bold;
+    padding: 15px;
+    padding-right: 10px;
+    font-family: 'Playfair Display SC';
+    font-size: 15PX;
+
+}
+.header .features 
+{
+   list-style: none;
+   text-align: center;
+   padding-left: 0 ;
+   padding-right: 20px;
+   width: 100%;
+   text-decoration: none;
+}
+.header .features li
+{
+    display: inline-block;
+    margin-right: 40px;  
+    padding-right: 0px;  
+    text-decoration: none;
+}
+.header .features ,li a 
+{
+    text-decoration: none;
+    color: white;
+    transition: color .5s;
+}
+.header ,features ,li,a:hover
+{
+  color: #ffeb3b;
+  font-weight: bold;
+}
+.button1
+{
+
+    background-color: #e1d724;
+    width: 200px;
+    color: whitesmoke;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:none;
+    padding: 10px 30px;
+    border:1px none;
+    margin-top: 25px;
+    transition: all 1s ;
+    font-family: 'Playfair Display SC';
+
+}
+.button1 a 
+{
+    text-decoration: none;
+}
+
+.button1:hover
+{
+    width: 260px ;
+    background-color:rgb(26, 17, 12);
+    
+}
+.introtext
+{
+    color: #ffeb3b;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+}
+
+.introtext h1
+{
+    font-size: 30px;
+    line-height: 20px;
+    margin: 0 0 5px;  
+}
+.introtext h1 span {color: blanchedalmond;}
+/*    <!-- End first page and navigation bar --> */
+
+/* Start History  */
+
+.ourHistory 
+{
+    display: flex;
+    padding-bottom: 40px;
+    padding-top:40px;
+}
+.ourHistory .details
+{
+    flex: 1;
+
+}
+.ourHistory .details h2
+{
+    font-weight: bold;
+    font-size: 25px;
+
+
+
+}
+.ourHistory .details p 
+{
+    line-height: 2; 
+    font-family: Arial, Helvetica, sans-serif ; 
+    color: #f6a154; 
+    
+}
+
+.ourHistory .image
+{
+    flex: 1 ; 
+    width: 600px;
+    text-align: center;
+    transition: all 5s;
+    
+}
+/* END History*/
+/*--------------------------------------------------------------------------------- */
+/* Features*/
+
+.dCard {
+    margin-top:40px;
+    text-align: center;
+    margin-bottom: 100px;
+
+  }
+  .dCard h2{ color:orange ;font-size:39px; font-weight: bold; font-family: 'Alex Brush'; }
+  .dCard h5{ }
+
+
+
+
+.inh
+{   display: inline;
+    text-align: center;
+    justify-content: center;
+}
+  .dish {
+    width:22%;
+    background-color: firebrick;
+    margin:10px auto;
+    display: inline-block;
+    overflow:hidden;
+    height:300px;
+
+
+    
+    
+  }
+  .dish:hover > .dImage {
+    margin-top:-150px;
+    opacity: 1;
+  }
+  .dImage {
+    background-color:#fff;
+    height:200px;
+    width: 300px;
+    transition:0.5s;
+    display: inline-block;
+    text-align: center;
+
+  }
+  .dImage .imgs {
+    height:100%; 
+       
+
+  }
+  .dName {
+    color:#fff;
+    font-weight:bold;
+    padding:5px;
+  }
+  .dName h1 {
+    font-size:30px;
+    font-family: 'Aguafina Script';
+
+  }
+  .dName  span {
+    font-size:20px;
+    color:yellow;
+    padding:0px;
+  }
+/* Features*/
+
+ /* ------------------------------------------------------------------------------*/
+  
+.footer 
+{
+    padding-top:30px;
+    padding-bottom: 30px;
+    height: 400px;
+    background-color: #141414;
+}
+
+.footer .sec  
+{
+    background-color: #f6a15400;
+    width: 390px;
+    display: inline-block;
+    height: 250px;
+}
+.footer .sec h5
+{
+    color: #d0d0d0 ; 
+    font-size: 21px;
+    text-align: left;
+    font-family: 'Adamina'
+
+}
+.footer .sec p
+{
+    color: #d0d0d0bd;
+    font-family: 'Amiko';
+    padding-bottom: 20px;
+}
+.footer .sec p span
+{
+      color: #e1d724;
+      font-size:  15px;
+}
+ .x 
+ {
+     text-align: center;
+     color: #d0d0d0;
+ }
+ 
+
+
+ @media screen and (max-width:400px)
+ {
+   .dish 
+   {
+     width:90%
+   }
+   .dish .dImage
+   {
+     width:90%
+   }
+     .dish .dImage .imgs
+     {
+       width:50%
+     }
+ }
+
+ @media screen and (max-width:760px)
+ {
+  .header
+  {
+      display:block;
+
+  }
+  .header .logo 
+  {
+      display:block ; padding-left: 43%; font-size: 25px;
+  }
+  .header .features li {display: block; padding-bottom: 25px; font-size: 25px; }
+  .button1 a {display: block;}
+
+
+
+
+.fpage 
+{
+  background-size: cover;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .dish 
+  {
+    width:90%
+  }
+  .dish .dImage
+  {
+    width:90%
+  }
+    .dish .dImage .imgs
+    {
+      width:50%
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

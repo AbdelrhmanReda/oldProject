@@ -1,0 +1,300 @@
+body{ background-color: ; 
+    font-family: 'Playfair Display SC'}
+
+
+
+
+
+
+
+
+.container 
+{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.header
+{
+    z-index: 2 ;
+    color: white;
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+
+}
+.header .logo 
+{
+    width: 200px;
+    font-weight: bold;
+    padding: 15px;
+    padding-right: 10px;
+
+}
+.header .features 
+{
+   list-style: none;
+   text-align: center;
+   padding-left: 0 ;
+   padding-right: 20px;
+   width: 100%;
+   text-decoration: none;
+}
+.header .features li
+{
+    display: inline-block;
+    margin-right: 40px;  
+    padding-right: 0px;  
+    text-decoration: none;
+}
+.header .features ,li a 
+{
+    text-decoration: none;
+    color: black;
+    transition: color .5s;
+}
+.header ,features ,li,a:hover
+{
+  color: #ffeb3b;
+  font-weight: bold;
+}
+.button1
+{
+
+    background-color: #e1d724;
+    width: 200px;
+    color: whitesmoke;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:none;
+    padding: 10px 30px;
+    border:1px none;
+    margin-top: 25px;
+    transition: all 1s ;
+}
+.button1 a 
+{
+    text-decoration: none;
+}
+
+.button1:hover
+{
+    width: 260px ;
+    background-color:rgb(26, 17, 12);
+    
+}
+.caption{padding-bottom:20px;}
+
+.caption img
+{
+    width: 1100px;
+    justify-content: center;
+    padding-left: 20px;
+    
+}
+.caption p{font-family: 'Playfair Display SC'; font-size: 30px;  font-weight: 900; text-align: center;}
+
+.rev 
+{
+    width : 1200px;
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+
+
+table {
+    border-spacing: 1;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 20px;
+    
+  }
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+
+  .footer 
+{
+    padding-top:30px;
+    padding-bottom: 30px;
+    height: 400px;
+    background-color: #141414;
+}
+
+.footer .sec  
+{
+    background-color: #f6a15400;
+    width: 390px;
+    display: inline-block;
+    height: 250px;
+}
+.footer .sec h5
+{
+    color: #d0d0d0 ; 
+    font-size: 21px;
+    text-align: left;
+    font-family: 'Adamina'
+
+}
+.footer .sec p
+{
+    color: #d0d0d0bd;
+    font-family: 'Amiko';
+    padding-bottom: 20px;
+}
+.footer .sec p span
+{
+      color: #e1d724;
+      font-size:  15px;
+}
+ .x 
+ {
+     text-align: center;
+     color: #d0d0d0;
+ }
+ 
+
+ @media screen (max-width:575.98px) 
+
+ {
+    .header .features 
+    {
+        width: 100%;
+
+    }
+    .sec 
+   {
+       width: 34%;
+   }
+
+
+ }
+ @media (max-width:420px)
+ {
+     .caption
+     {
+         width: 100%;
+         text-align: center;
+     }
+     .caption img 
+    {
+     width: 100%;
+     vertical-align: center;
+     justify-content:center;
+     text-align:center;
+    }
+    .container .caption p 
+    {
+        text-align: center;
+
+    }
+
+ }
+ @media (max-width: 767.98px)
+ {
+    .caption
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .caption img 
+   {
+    width: 100%;
+    vertical-align: center;
+    justify-content:center;
+    text-align:center;
+   }
+   .container .caption p 
+   {
+       text-align: center;
+   }
+   .header
+   {
+       display: block;
+   }
+   .container .header .logo
+    {
+        text-align: center;
+    }
+
+   .header .features li   
+   {
+       display: block;
+       padding-top:10px ;
+       padding-bottom:10px;
+       font-size: 30px;
+    }
+ }
+ @media (max-width: 575.98px)
+ {
+    .caption
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .caption img 
+   {
+    width: 100%;
+    vertical-align: center;
+    justify-content:center;
+    text-align:center;
+   }
+   .container .caption p 
+   {
+       text-align: center;
+   }
+   .header
+   {
+       display: block;
+   }
+   .container .header .logo
+    {
+        text-align: center;
+    }
+
+   .header .features li   
+   {
+       display: block;
+       padding-top:10px ;
+       padding-bottom:10px;
+       font-size: 30px;
+    }
+
+   .header .features li a  {display: block;}
+   button .button1
+   {
+       text-align: center;
+       padding-left: 500px;
+   }
+   
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

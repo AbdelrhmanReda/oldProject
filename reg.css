@@ -1,0 +1,170 @@
+body
+{
+    background-image: url("burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+
+
+}
+
+.container
+{
+    max-width: 450px;
+    width: 100%;
+    background: rgba(136, 116, 61, 0.42);
+    margin: 120px auto;
+    padding: 30px;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.container .header 
+{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: color 1s;
+
+
+}
+.container .header h2 
+{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: color 1s;
+    font-family: 'Playfair Display SC';
+
+
+}
+
+.container .header  h2:hover
+{
+    color: #ffeb3b;
+}
+
+ 
+.container .bForm .inForm
+{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    display: flex;
+}
+.bForm
+{
+    width: 100%;
+}
+.container .bForm .inForm label
+{
+    width: 150px;
+    padding-right: 40px;
+    font-size: 15px;
+    color: #ffeb3b;
+    font-weight: 900;
+    display: flex;
+
+}
+.container .bForm .inForm .ge
+{
+  padding: px;
+}
+
+
+
+.container .bForm .inForm .get ,
+.container .bForm .inForm .textArea
+{
+    padding: 5px 9px;
+    background-color: #ffc107cc;
+    border-radius: 6px;
+    width: 100%;
+    font-size: large;
+    border: 1px solid;
+    outline: none;
+}
+.container .bForm .inForm .textArea
+{
+    
+width: 100%;
+height: 75px;
+resize: none;
+}
+.container .bForm .inForm .btn
+ {
+    width: 100%;
+    padding: 8px 10px;
+   font-size: 15px; 
+   border: 0px;
+   background:  #fec107;
+   color: rgb(27, 8, 8);
+   cursor: pointer;
+   border-radius: 3px;
+   outline: none;
+   transition: color 1s;
+   font-family: 'Playfair Display SC';
+
+ }
+ .container .bForm .inForm .btn
+:hover{
+color: #2617ac;
+  }
+  .container .bform .inform .input:focus,
+  .container .bform .inform .textarea:focus 
+  {
+    border: 1px solid #fec107;
+
+  }`
+  .select
+  {
+    width: 100%;
+    text-align: center;
+  }
+.select
+{
+  padding-bottom: 25px;
+  color: #FFEB3B;
+  font-size: 18px;
+  text-align: center;
+}
+.select label 
+{
+  padding-right:15px;
+  padding-left:15px;
+}
+
+
+  .radio
+  {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    border-radius: 50px;
+    color: azure;
+
+  }
+  .radio input[type="radio"]
+  {
+    display: none;
+  }
+  .select .radio span 
+  {
+    font-size: 100px;
+  }
+  
+@media (max-width:420px) {
+    .container .bform .inform{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .container .bform .inform label{
+      margin-bottom: 5px;
+    }
+    
+  }
+  
